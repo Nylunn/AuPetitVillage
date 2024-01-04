@@ -1,0 +1,15 @@
+<header class="header">
+  <a href="#top" class="logo">Au Petit Village</a>
+  <img [src]="logo" width="60px" alt="LogoVillage" class="logoheader"/>
+  <nav class="navbar">
+    <button class="btn" (click)="goToPage('/Home')">Acceuil</button>
+    <button class="btn" (click)="goToPage('/Product')">Produits</button>
+    <button class="btn" (click)="goToPage('/About')">A Propos</button>
+    <button class="btn" (click)="goToPage('/Contact')">Contact</button>
+
+  </nav>
+  <br>
+</header>
+<br>
+
+<router-outlet></router-outlet>
