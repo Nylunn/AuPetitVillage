@@ -1,0 +1,25 @@
+.asterix_showcase{
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.description_asterix{
+    margin-top: 100px;
+    border-radius: 30px;
+    background: #F9D0A3;
+    box-shadow: inset 5px 5px 45px #645341,
+    inset -5px -5px 45px #ffffff;
+                width: 900px;
+                height: 400px;
+                line-height : 40px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+
+}
+
+*{
+    margin-top: 40px;
+    font-size: 30px;
+}

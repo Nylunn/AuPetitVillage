@@ -1,0 +1,25 @@
+footer{
+    background-color: #151217;
+    height: 10vh;
+    bottom:0;  /* on le colle en bas */
+    width:100%;
+    height:120px;   /* Hauteur du pied de page */
+  margin-top: 200px;
+}
+footer .footertext{
+    text-align: center;
+    line-height: 10vh;
+    color: #FDD90B; 
+    margin-top: -100px;
+}
+footer .footertext a{
+    text-decoration: none;
+    color: #DA001E;
+    font-weight: bold;
+}
+
+
+.socialnetwork{
+    margin: 30px;
+    margin-top: 20px;
+}
